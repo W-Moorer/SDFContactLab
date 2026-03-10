@@ -1,0 +1,22 @@
+# Prompt folder
+prompt/
+
+# Build folders
+build/
+bin/
+out/
+dist/
+
+# Local settings
+local/
+
+# IDE and editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
