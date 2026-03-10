@@ -1,0 +1,29 @@
+{
+  "name": "sphere_ellipsoid",
+  "time_step": 0.001,
+  "num_steps": 10,
+  "enabled_methods": [
+    "MeshMeshBaseline",
+    "SingleSDFAsymmetricBaseline",
+    "DirectSDFSingleContactBaseline",
+    "OursFullBPC"
+  ],
+  "bodies": [
+    {
+      "id": 0,
+      "name": "sphere",
+      "shape": "sphere",
+      "radius": 0.8,
+      "mass": 1.0,
+      "translation": [0.0, 0.0, 0.0]
+    },
+    {
+      "id": 1,
+      "name": "ellipsoid",
+      "shape": "ellipsoid",
+      "radii": [1.1, 0.7, 0.6],
+      "mass": 2.0,
+      "translation": [1.3, 0.0, 0.0]
+    }
+  ]
+}

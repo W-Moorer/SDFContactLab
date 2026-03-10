@@ -1,0 +1,2 @@
+method,case,success,gap_error,cluster_count,wall_clock_time
+OursFullBPC,sphere_sphere,True,0.10000000000000009,1.0,0.000103

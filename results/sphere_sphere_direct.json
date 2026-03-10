@@ -1,0 +1,45 @@
+{
+  "case": "sphere_sphere",
+  "dynamics_metrics": {
+    "angular_momentum_change": 0.0,
+    "constraint_residual": 0.0,
+    "convergence_radius": 1.0,
+    "critical_dt": 0.001,
+    "energy_drift": 0.0,
+    "mean_newton_iters": 1.0,
+    "momentum_change": 0.0,
+    "normal_impulse_error": 0.0,
+    "solver_fail_rate": 0.0,
+    "stiffness_stable_range": 1.0,
+    "wall_clock_time": 8.79e-05
+  },
+  "fairness_scope": "solver_ready",
+  "geometry_metrics": {
+    "candidate_count": 1.0,
+    "center_error": 0.0,
+    "cluster_count": 1.0,
+    "cluster_recall": 1.0,
+    "common_normal_residual": 0.0,
+    "failure_rate": 0.0,
+    "gap_error": 0.10000000000000009,
+    "normal_angle_error_deg": 0.0,
+    "normal_jitter": 0.0
+  },
+  "method": "DirectSDFSingleContactBaseline",
+  "params": {
+    "num_bodies": 2,
+    "num_steps": 10,
+    "time_step": 0.001
+  },
+  "reproducibility": {
+    "case_file": "cases\\sphere_sphere\\case.json",
+    "dependency_profile": "CMake + Eigen + nlohmann_json + Catch2",
+    "experiment_tier": "Tier0Skeleton",
+    "failure_reason": "none",
+    "max_projection_iters": 8,
+    "num_seeds": 1,
+    "symmetric_gap": true
+  },
+  "seed": 0,
+  "success": true
+}

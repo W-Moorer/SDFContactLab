@@ -1,0 +1,3 @@
+method,case,success,fairness_scope,gap_error,cluster_count,wall_clock_time
+OursFullBPC,sphere_sphere,1,solver_ready,0.1,1,0.000103
+DirectSDFSingleContactBaseline,sphere_sphere,1,solver_ready,0.1,1,8.79e-05

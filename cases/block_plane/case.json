@@ -1,0 +1,29 @@
+{
+  "name": "block_plane",
+  "time_step": 0.001,
+  "num_steps": 20,
+  "enabled_methods": [
+    "SingleSDFAsymmetricBaseline",
+    "DirectSDFSingleContactBaseline",
+    "OursFullBPC"
+  ],
+  "bodies": [
+    {
+      "id": 0,
+      "name": "block",
+      "shape": "box",
+      "half_extents": [0.5, 0.5, 0.5],
+      "mass": 2.0,
+      "translation": [0.0, 0.45, 0.0]
+    },
+    {
+      "id": 1,
+      "name": "ground",
+      "shape": "plane",
+      "normal": [0.0, 1.0, 0.0],
+      "offset": 0.0,
+      "mass": 1000000.0,
+      "translation": [0.0, 0.0, 0.0]
+    }
+  ]
+}

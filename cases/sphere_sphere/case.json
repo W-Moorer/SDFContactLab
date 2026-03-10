@@ -1,0 +1,30 @@
+{
+  "name": "sphere_sphere",
+  "time_step": 0.001,
+  "num_steps": 10,
+  "enabled_methods": [
+    "AnalyticReference",
+    "MeshMeshBaseline",
+    "SingleSDFAsymmetricBaseline",
+    "DirectSDFSingleContactBaseline",
+    "OursFullBPC"
+  ],
+  "bodies": [
+    {
+      "id": 0,
+      "name": "sphere_a",
+      "shape": "sphere",
+      "radius": 1.0,
+      "mass": 1.0,
+      "translation": [0.0, 0.0, 0.0]
+    },
+    {
+      "id": 1,
+      "name": "sphere_b",
+      "shape": "sphere",
+      "radius": 1.0,
+      "mass": 1.0,
+      "translation": [1.9, 0.0, 0.0]
+    }
+  ]
+}
